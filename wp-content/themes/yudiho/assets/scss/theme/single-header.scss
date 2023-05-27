@@ -1,0 +1,51 @@
+.single-header {
+  margin: 3rem 0px;
+  &__description {
+    margin: 10rem 0px;
+  }
+  &__excerpt {
+    margin: 1rem 0px;
+  }
+  &__h1 {
+    font-family: FontSemiBold;
+    color: $yudiho-color-1;
+  }
+  &__image {
+    border-radius: 15px;
+    width: 100%;
+    &:hover {
+      box-shadow: 0 14px 28px $yudiho-color-3, 0 10px 10px $yudiho-color-3;
+    }
+  }
+  &__heading {
+    color: $yudiho-color-1;
+    margin: 10rem 0px;
+    font-family: FontBold;
+    font-size: 2.5rem;
+  }
+  .category-box {
+    padding: 1rem;
+    span {
+      font-family: FontBold;
+      float: left;
+      border: 2px solid #0F044C;
+      padding: 5px;
+      margin: 5px 10px;
+      color: #2b3961;
+      border-radius: 25px;
+      text-align: center;
+    }
+  }
+  &__author-box {
+    a{
+      text-decoration: none;
+      color:$yudiho-color-1;
+    }
+    img {
+      width: 80px;
+    }
+    span{
+      margin: 0 1rem;
+    }
+  }
+}

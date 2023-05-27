@@ -1,0 +1,63 @@
+.yudiho-trending-list {
+  list-style: none;
+  padding-left: 0px;
+  li {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 10px 0px;
+    border-bottom: 1px solid $yudiho-color-3;
+    padding-bottom: 15px;
+  }
+  &__image {
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2rem 0px;
+  }
+  &__content {
+    float: left;
+    width: 75%;
+  }
+  &__tag-list {
+    display: flex;
+    span {
+      font-family: FontRegular;
+      float: left;
+      border: 1px solid $yudiho-color-1;
+      padding: 5px 5px;
+      margin: 0px 5px;
+      color: $yudiho-color-2;
+      border-radius: 25px;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+  &__description {
+    margin-top: 10px;
+    p {
+      font-family: FontRegular;
+      color: $yudiho-color-3;
+    }
+  }
+  .read-more {
+    float: right;
+    color: $yudiho-color-1;
+    font-family: FontSemiBold;
+  }
+  .date {
+    float: left;
+    color: $yudiho-color-3;
+  }
+  &__title {
+    font-family: FontBold;
+    color: $yudiho-color-2;
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+  }
+}

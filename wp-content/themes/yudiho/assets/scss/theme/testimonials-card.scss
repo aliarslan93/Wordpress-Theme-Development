@@ -1,0 +1,73 @@
+
+.testomonial-card {
+  font-family: FontRegular;
+  background-color: #FFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1rem auto;
+  cursor: pointer;
+  border-radius: 10px;
+  .testomonial-body {
+    position: absolute;
+    left: 30px;
+    right: 15px;
+    bottom: 0;
+    transition: all linear 0.25s;
+  }
+  img.full-width {
+    transition: all linear 0.25s;
+    width: 100%;
+    height: auto;
+  }
+  .testomonial-heading {
+    font-size: 30px;
+    line-height: 1;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    position: relative;
+    transition: all 400ms ease-out;
+    text-transform: uppercase;
+    font-family: FontBold;
+
+  }
+  .testomonial-description {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    height: unset;
+    transition: all linear 0.25s;
+  }
+  &:hover {
+    .testomonial-body {
+      bottom: 30px;
+    }
+    .testomonial-heading {
+      color: $yudiho-color-4;
+      &:before, &:after {
+
+      }
+    }
+  }
+}
+
+.testomonial-card:hover .testomonial-heading::before {
+  content: "";
+  background: $yudiho-color-1;
+  transform: translateX(-200px);
+}
+
+
+
+.testomonial-card:hover .testomonial-description {
+  visibility: visible;
+  opacity: 1;
+  transition: all 400ms ease-out;
+  height: initial;
+}

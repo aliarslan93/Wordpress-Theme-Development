@@ -1,0 +1,29 @@
+.gallery-widget {
+  display: inline-block;
+  width: 100%;
+  .gallery-widget-heading {
+    margin: 1rem 0px;
+    font-family: FontBold;
+    color: $yudiho-color-1;
+  }
+  .gallery-slider {
+    height: 350px;
+    figure {
+      width: 515px;
+      height: 290px;
+    }
+    .slide-item {
+      height: 290px !important;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+}
+
+.swiper-slide {
+  img {
+    width: 100%;
+  }
+}

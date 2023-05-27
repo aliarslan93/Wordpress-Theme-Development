@@ -1,0 +1,37 @@
+// Fonts
+@import "theme/font-family";
+@import "~@morteza-jamali/lineicons/WebFont/scss/main";
+@import "theme/style";
+@import "theme/footer";
+@import "theme/navbar";
+/* Template SCSS */
+@import "theme/page";
+@import "theme/category-list";
+@import "theme/single-page";
+@import "theme/404";
+/* Component SCSS */
+@import "theme/featured";
+@import "theme/review-box";
+@import "theme/blockquote";
+@import "theme/post-review";
+@import "theme/newest";
+@import "theme/share-social";
+@import "theme/newsletter";
+@import "theme/tag-area";
+@import "theme/trending";
+@import "theme/author-header";
+@import "theme/category-widget";
+@import "theme/yudiho-parallax";
+@import "theme/testimonials-card";
+@import "theme/footer";
+@import "theme/carousel-slider";
+@import "theme/navbar";
+@import "theme/form-search";
+@import "theme/search-widget";
+@import "theme/latest-widget";
+@import "theme/gallery-widget";
+@import "theme/single-header";
+@import "~aos/src/sass/aos";
+@import "theme/pagination";
+/* Responsive SCSS */
+@import "theme/responsive";

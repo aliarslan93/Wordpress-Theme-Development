@@ -1,0 +1,25 @@
+.yudiho-page-content {
+  margin: 1rem 0px;
+  padding: 2rem;
+  .h1 {
+    font-family: FontSemiBold;
+    color: $yudiho-color-1;
+  }
+  .h2 {
+    font-family: FontBold;
+    color: $yudiho-color-2;
+  }
+  .h3 {
+    font-family: FontRegular;
+    color: $yudiho-color-3;
+  }
+  p {
+    font-family: FontRegular;
+  }
+  img{
+    border-radius: 5px;
+    &:hover{
+      box-shadow: 0 0 11px $yudiho-color-3;
+    }
+  }
+}

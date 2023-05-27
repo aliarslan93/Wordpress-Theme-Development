@@ -1,0 +1,132 @@
+.featured {
+  display: grid;
+  .big-card {
+    max-height: 640px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: 0px solid $yudiho-color-2;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 0px 5px 0px;
+    figure {
+      margin: 0 0 0rem;
+    }
+    &__body {
+      position: absolute;
+      left: 30px;
+      right: 15px;
+      bottom: 0;
+      transition: all linear 0.25s;
+    }
+    &__heading {
+      font-size: 30px;
+      line-height: 1;
+      color: #FFF;
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      position: relative;
+      transition: all 400ms ease-out;
+      text-transform: uppercase;
+      &:before {
+        position: absolute;
+        left: 0;
+        top: -7px;
+        transform: translateX(0);
+      }
+      &:after {
+        position: absolute;
+        left: 0;
+        bottom: -7px;
+        transform: translateX(-200px);
+      }
+      &:hover, &:after {
+        transition: all 250ms ease-in;
+      }
+    }
+    &__description {
+      color: $yudiho-color-4;
+    }
+    img.full-width {
+      transition: all linear 0.25s;
+      width: 100%;
+      height: auto;
+    }
+    &:hover {
+      box-shadow: 0 0 11px $yudiho-color-2;
+    }
+  }
+  .small-card {
+    max-height: 310px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px 0px 0px 0px;
+    figure {
+      margin: 0 0 0rem;
+    }
+    &__body {
+      position: absolute;
+      left: 30px;
+      right: 15px;
+      bottom: 0;
+      transition: all linear 0.25s;
+    }
+    &__heading {
+      font-size: 30px;
+      line-height: 1;
+      color: #FFF;
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      position: relative;
+      transition: all 400ms ease-out;
+      text-transform: uppercase;
+      &:before {
+        position: absolute;
+        left: 0;
+        top: -7px;
+        transform: translateX(0);
+      }
+      &:after {
+        position: absolute;
+        left: 0;
+        bottom: -7px;
+        transform: translateX(-200px);
+      }
+      &:hover, &:after {
+        transition: all 250ms ease-in;
+      }
+    }
+    &__description {
+      color: $yudiho-color-4;
+    }
+    img.full-width {
+      transition: all linear 0.25s;
+      width: 100%;
+      height: auto;
+    }
+    &:hover {
+      box-shadow: 0 0 11px $yudiho-color-2;
+    }
+  }
+  .navigation{
+    margin: 5px 0px;
+  }
+  .button {
+
+    &__previous {
+      float: left;
+      font-family: FontBold;
+      text-decoration: none;
+      color: $yudiho-color-1;
+    }
+    &__next {
+      float: right;
+      font-family: FontBold;
+      text-decoration: none;
+      color: $yudiho-color-1;
+    }
+  }
+}

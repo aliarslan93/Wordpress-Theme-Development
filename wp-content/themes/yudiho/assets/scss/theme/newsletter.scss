@@ -1,0 +1,77 @@
+$tablet-size: 600px;
+.newsletter {
+  padding: 40px;
+  text-align: center;
+
+  @media screen and (min-width: $tablet-size) {
+    width: 100%;
+    padding: 5px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+
+    @media screen and (min-width: $tablet-size) {
+      font-size: 48px;
+    }
+    span {
+      display: block;
+      font-size: 28px;
+
+      @media screen and (min-width: $tablet-size) {
+        font-size: 38px;
+      }
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+.text {
+  width: 100%;
+  height: 70px;
+  background-color: #f1f1f199;
+  border-radius: 40px;
+  position: relative;
+  margin-top: 40px;
+
+  input {
+    width: 100%;
+    height: 70px;
+    border-radius: 40px;
+    border: 0;
+    background: none;
+    padding: 0 30px;
+    outline: none;
+    font-size: 15px;
+
+    @media screen and (min-width: $tablet-size) {
+      padding-right: 80px;
+    }
+  }
+
+  button {
+    background-color: #574b90;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s linear;
+    &:hover {
+      opacity: .5;
+    }
+  }
+}

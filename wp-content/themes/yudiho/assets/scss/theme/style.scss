@@ -1,0 +1,52 @@
+$yudiho-color-1: #0F044C;
+$yudiho-color-2: rgba(43, 57, 97);
+$yudiho-color-3: #787A91;
+$yudiho-color-4: #EEEEEE;
+$yudiho-category-widget-bg: rgba(15, 4, 76, 0.51);
+.yudiho-color-1 {
+  color: $yudiho-color-1;
+}
+
+.yudiho-color-2 {
+  color: $yudiho-color-2;
+}
+
+.yudiho-color-3 {
+  color: $yudiho-color-3;
+}
+
+.yudiho-color-4 {
+  color: $yudiho-color-4;
+}
+
+.bg-yudiho-1 {
+  background: $yudiho-color-1;
+}
+
+.bg-yudiho-2 {
+  background: $yudiho-color-2;
+}
+
+.bg-yudiho-3 {
+  background: $yudiho-color-3;
+}
+
+.bg-yudiho-4 {
+  background: $yudiho-color-4;
+}
+
+html, body {
+  width: 100%;
+}
+
+header {
+  margin-bottom: 5.5rem;
+}
+
+.main-body {
+  margin-top: 100px;
+  width: 100%;
+}
+.trend-image-circle{
+  border-radius: 15px 0px 15px 0px;
+}

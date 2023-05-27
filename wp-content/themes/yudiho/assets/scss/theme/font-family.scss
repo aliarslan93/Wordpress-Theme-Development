@@ -1,0 +1,23 @@
+@font-face {
+  font-family: FontRegular;
+  src: local("GoldplayRegular"),
+  local("GoldplayRegular"),
+  url(fonts/GoldplayRegular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: FontBold;
+  src: local("GoldplayBold"),
+  local("GoldplayBold"),
+  url(fonts/GoldplayBold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: FontSemiBold;
+  src: local("GoldplaySemiBold"),
+  local("GoldplaySemiBold"),
+  url(fonts/GoldplaySemiBold.woff);
+  font-weight: 500;
+}
