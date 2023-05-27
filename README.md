@@ -3,14 +3,13 @@
 
 
 **Developed with Laravel Mix and used these Library**
-1. Bootstrap 5.1.3
-2. bootstrap: "^5.1.3",
-3. swiper: "^6.5.3",
-4. @morteza-jamali/lineicons": "^2.0.1",
-5. jquery": "^3.2",
-6. laravel-mix": "^5.0.1",
-7. sass": "^1.15.2",
-8. sass-loader": "^8.0.0"
+1. bootstrap:^5.1.3",
+2. swiper: ^6.5.3",
+3. @morteza-jamali/lineicons: "^2.0.1",
+4. jquery: "^3.2",
+5. laravel-mix: "^5.0.1",
+6. sass: "^1.15.2",
+7. sass-loader: "^8.0.0"
 
 ## Official Libraries Document
 1. <a href="https://laravel-mix.com/" target="_blank"> Laravel Mix </a>
