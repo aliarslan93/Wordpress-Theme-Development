@@ -35,7 +35,7 @@ Now I will fix custom theme parts js and css. You can track this project issues.
 
 ## Features
 
-1. Smashing Theme Js and CSS.
+1. Break up Theme Js and CSS.
 2. Upgrade WordPress Version.
 3. Custom Theme Panel Management.
 4. ...
